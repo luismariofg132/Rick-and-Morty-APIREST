@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24282f;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1em;
+}
+
+h2 {
+  cursor: pointer;
+}
+.search {
+  background-color: transparent;
+  border: 2px solid #24282f;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #24282f;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.target {
+  background-color: #3c3e44;
+  border-radius: 10px;
+  width: 40vw;
+  height: 35vh;
+  position: relative;
+  margin-top: 60px;
+  color: white;
+}
+
+.target img {
+  position: absolute;
+  height: 35vh;
+  border-radius: 10px;
+}
+
+.target h4 {
+  position: absolute;
+  left: 18vw;
+  top: -10px;
+  font-size: 24px;
+}
+
+.status h5 {
+  position: absolute;
+  left: 18vw;
+  top: 35px;
+  font-size: 18px;
+}
+
+.status span {
+  position: absolute;
+  left: 18vw;
+  top: 90px;
+  font-size: 18px;
+}
+
+.status2 h5 {
+  position: absolute;
+  left: 18vw;
+  top: 100px;
+  font-size: 18px;
+}
+
+.status2 span {
+  position: absolute;
+  left: 18vw;
+  top: 155px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #202329;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: white;
+}
+
+footer h4 {
+  margin: 10px;
+}
+footer a {
+  text-decoration: none;
+  border-style: none;
+  color: white;
+}
