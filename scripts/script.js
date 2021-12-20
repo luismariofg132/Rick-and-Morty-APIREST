@@ -6,6 +6,7 @@ const form = document.getElementById('form');
 const search = document.getElementById('search');
 const h2 = document.querySelector("h2");
 
+// Consulta de API con la url de la variable
 const getCharacter = (character) => {
     const peticion = fetch(character);
     peticion
@@ -24,6 +25,7 @@ const getCharacter = (character) => {
 
 getCharacter(API_URL);
 
+// Impresion de resultados en pantalla con un for.each
 const showCharacter = (characters) => {
     if (characters.length == 0) {
         swal.fire({
@@ -62,6 +64,7 @@ const showCharacter = (characters) => {
     }
 }
 
+// Evento Submit para buscar
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
